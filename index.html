@@ -18,60 +18,80 @@
     </header>
 
     <section id="about">
-        <h1>Sobre Mim</h1>
-        <img src="img/foto.webp" alt="Foto">
-        <p>Texto sobre você. ahsuahsuahsuahsuahsuahsuahsuasgg<br>
-            ggggggggggggggggggggggggggggggggggggggggggggggggg<br>
-            gggggggggggggggggggggggggggggggggggggggggggggggggg<br>
-            gggggggggggggggggggggggggggggggggggggggggggggggggg<br>
-            gggggggggggggggggggggggggggggggggggggggggggggggggg<br>
-            gggggggggggggggggggggggggggggg</p>
+        <div class="about-container">
+            <div class="about-img-container">
+                <img src="img/foto.webp" alt="Foto" class="about-img">
+            </div>
+            <div class="about-text">
+                <h1>Sobre Mim</h1>
+                <p>Olá! Meu nome é João Silva, e sou um desenvolvedor web apaixonado por criar experiências digitais incríveis. Com mais de 5 anos de experiência na área, já trabalhei em diversos projetos que vão desde sites institucionais até aplicações web complexas.</p>
+                <p>Minha jornada começou na faculdade de Ciência da Computação, onde descobri meu amor por programação e design. Desde então, tenho me dedicado a aprimorar minhas habilidades e a acompanhar as últimas tendências e tecnologias do mercado.</p>
+                <p>Quando não estou programando, gosto de explorar novas tecnologias, jogar videogames e passar tempo com minha família e amigos.</p>
+            </div>
+        </div>
     </section>
 
     <section id="conhecimentos">
         <h2>Conhecimentos</h2>
-        <div class="project">
-            
-            <h3>Javascript</h3>
-            <p>Nível Avançado.</p>
+        <div class="knowledge-container reverse">
+            <img class="logo" src="img/JavaScript-logo.png" alt="">
+            <div class="knowledge-text">
+                <h3>Javascript</h3>
+                <p>Nível Avançado. Tenho ampla experiência com desenvolvimento front-end utilizando frameworks como React e Angular, além de habilidades sólidas em manipulação de DOM e APIs.</p>
+            </div>
         </div>
-        <div class="project">
-            
-            <h3>Typescript</h3>
-            <p>Nível Avançado.</p>
+        <div class="knowledge-container">
+            <img class="logo" src="img/Typescript_logo_2020.svg.png" alt="">
+            <div class="knowledge-text">
+                <h3>Typescript</h3>
+                <p>Nível Avançado. Utilizo Typescript para trazer mais robustez e manutenção ao código, especialmente em projetos grandes e complexos. Tenho experiência com Angular e NestJS.</p>
+            </div>
         </div>
-        <div class="project">
-            
-            <h3>Javascript</h3>
-            <p>Nível Avançado.</p>
+        <div class="knowledge-container reverse">
+            <img class="logo" src="img/JavaScript-logo.png" alt="">
+            <div class="knowledge-text">
+                <h3>HTML & CSS</h3>
+                <p>Nível Avançado. Crio interfaces responsivas e acessíveis, seguindo as melhores práticas de SEO e performance. Domínio de preprocessadores como SASS e LESS.</p>
+            </div>
         </div>
-        
+        <div class="knowledge-container">
+            <img class="logo" src="img/Typescript_logo_2020.svg.png" alt="">
+            <div class="knowledge-text">
+                <h3>Node.js</h3>
+                <p>Nível Intermediário. Desenvolvo APIs RESTful e aplicações server-side com Node.js, Express e MongoDB, priorizando a escalabilidade e segurança das aplicações.</p>
+            </div>
+        </div>
     </section>
 
     <section id="projects">
         <h2>Meus Projetos</h2>
-        <div class="project">
-            <img src="img/project1.jpg" alt="Projeto 1">
-            <h3>Projeto 1</h3>
-            <p>Descrição do projeto 1.</p>
-            <a href="https://github.com/LeoSouzaSenac/PasswordGenerator">Clique aqui</a>
+        <div class="project-container reverse">
+            <img class="project-img" src="img/senhas-sem-senhas.jpg" alt="Projeto 1">
+            <div class="project-text">
+                <h3>Gerador de Senhas</h3>
+                <p>Uma aplicação web que gera senhas seguras e aleatórias. Utiliza tecnologias como HTML, CSS e Javascript para criar uma interface amigável e funcional.</p>
+                <a href="https://github.com/LeoSouzaSenac/PasswordGenerator">Clique aqui</a>
+            </div>
         </div>
-        <div class="project">
-            <img src="img/project2.jpg" alt="Projeto 2">
-            <h3>Projeto 2</h3>
-            <p>Descrição do projeto 2.</p>
+        <div class="project-container">
+            <img class="project-img" src="img/8020-Rede-de-contatos.jpeg" alt="Projeto 2">
+            <div class="project-text">
+                <h3>Agenda de Contatos</h3>
+                <p>Uma aplicação full-stack para gerenciamento de contatos. Desenvolvida com React no front-end e Node.js no back-end, permite adicionar, editar e deletar contatos facilmente.</p>
+                <a href="https://github.com/LeoSouzaSenac/PasswordGenerator">Clique aqui</a>
+            </div>
         </div>
-        
     </section>
+    
 
     <section id="contact">
         <h2>Contato</h2>
-        <p>Email: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
-        <p>Whatsapp: <a href="wa.me/+5551995866984">51 99586 6984</a></p>
+        <p>Email: <a href="mailto:seuemail@example.com" style="color: #00ff00;">seuemail@example.com</a></p>
+        <p>Whatsapp: <a href="wa.me/+5551995866984" style="color: #00ff00;">51 99586 6984</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2024 Seu Nome</p>
+        <p>&copy; 2024 João Silva</p>
     </footer>
 </body>
 </html>
